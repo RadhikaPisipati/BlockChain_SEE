@@ -302,7 +302,7 @@ const App = () => {
                     <p className="tld"> {tld} </p>
                 </div>
 
-                <input type="text" value={record} placeholder="why's your meow special?" onChange={(e) => setRecord(e.target.value)} />
+                <input type="text" value={record} placeholder="why's your domain special?" onChange={(e) => setRecord(e.target.value)} />
                 {/* If the editing variable is true, return the "Set record" and "Cancel" button */}
                 {editing ? (
                     <div className="button-container">
